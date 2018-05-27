@@ -24,7 +24,7 @@ var Car = (function () {
         this.speedRight = 0;
         this.speedUp = 0;
         this.game = g;
-        this.element = document.createElement("car");
+        this.element = document.createElement("player");
         var game = document.getElementsByTagName("game")[0];
         game.appendChild(this.element);
         this.gravity = 10;

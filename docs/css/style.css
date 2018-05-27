@@ -26,6 +26,11 @@ car {
     background-image: url(../images/car.png);
 }
 
+player{
+    width:72px; height:121px;
+    background-image: url(../images/test1.png);
+}
+
 textfield {
     font-size: 1.4em;
     width:530px;

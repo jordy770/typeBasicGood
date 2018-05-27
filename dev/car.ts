@@ -12,7 +12,7 @@ class Car  {
          
     constructor(g:Game) {
         this.game = g
-        this.element = document.createElement("car")
+        this.element = document.createElement("player")
         let game = document.getElementsByTagName("game")[0]
         game.appendChild(this.element)
 
